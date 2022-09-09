@@ -59,7 +59,7 @@ const renderWatchlist = () => {
   return movies.map(movie => (
     <div>
 
-      <MovieCard movie={movie.id}/>
+      <MovieCard movie={movie}/>
       <button className={"button"} onClick={() => removeFromWatchlist(movie.id)}>Remove from watchlist</button>
 
     </div>
